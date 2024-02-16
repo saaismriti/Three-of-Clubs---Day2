@@ -1,0 +1,19 @@
+.obj-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This ensures the content is vertically centered */
+}
+
+.obj-content {
+  max-width: 800px; /* Adjust this value as needed */
+  text-align: justify; /* Align text to justify */
+  padding: 0 20px; /* Add padding to create space at both ends */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+
+.obj-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
